@@ -1,0 +1,58 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="D:/Program Files/nodejs/node.exe" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-admin-mock" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/fms-component" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise/ridol-enterprise-frame" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/biz-component-fms-ac" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-unit-test" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-base" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-component" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/biz-component-fms-baselib" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/fms-admin" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/fms" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise" />
+        <option value="https://svn.rtl.com:7500/svn/YC_BGW/code/01_Trunk/bgw-ui" />
+        <option value="https://svn.rtl.com:7500/svn/YC_BGW/code/01_Trunk/bgw" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-admin" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/mobile/ridol-enterprise-mobileApi" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-sample" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-admin-mock" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise/ridol-enterprise-frame" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/biz-component-fms-ac" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-unit-test" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-base" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-component" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/biz-component-fms-baselib" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/biz-component-fms-acc" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/component" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/fms-admin" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/fms" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/tms-admin" />
+        <option value="https://svn.rtl.com:7500/svn/YC_TFRP/code/01_Trunk/tms-4.0" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise" />
+        <option value="https://svn.rtl.com:7500/svn/YC_BGW/code/01_Trunk/bgw-ui" />
+        <option value="https://svn.rtl.com:7500/svn/YC_BGW/code/01_Trunk/bgw" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-admin" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/mobile/ridol-enterprise-mobileApi" />
+        <option value="https://svn.ritoinfo.com:7500/svn/RiDol/RiDolEnterprise/code/enterprise/trunk/ridol-enterprise-sample" />
+      </list>
+    </option>
+    <option name="mySvnCommandLine" value="D:\Program Files\TortoiseSVN\bin\svn.exe" />
+  </component>
+</application>
