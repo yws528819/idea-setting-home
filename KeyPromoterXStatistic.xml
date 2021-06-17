@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3'</ShortCut>
           <Description>Declaration</Description>
-          <Count>139</Count>
+          <Count>141</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -78,6 +78,14 @@
           <IdeaActionID>XDebugger.Inspect</IdeaActionID>
           <ShortCut>'Ctrl+Shift+I'</ShortCut>
           <Description>Inspect...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="New Folder...">
+        <Item>
+          <IdeaActionID>FileChooser.NewFolder</IdeaActionID>
+          <ShortCut>'Alt+Insert' or 'Ctrl+N'</ShortCut>
+          <Description>New Folder...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
