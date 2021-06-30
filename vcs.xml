@@ -26,8 +26,16 @@
           <option name="url" value="https://github.com/macrozheng/mall-swarm.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/fi/fi.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35" />
+          <option name="userName" value="yews" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\IDEA_Workspace" />
+    <option name="cloneParentDir" value="D:\IDEA_QzingWorkspace" />
   </component>
 </application>
