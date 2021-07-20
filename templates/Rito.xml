@@ -1,0 +1,72 @@
+<templateSet group="Rito">
+  <template name="ridol-select" value="&lt;el-form-item label=&quot;$desc$&quot; prop=&quot;$fieldCode$&quot;&gt;&#10;    &lt;ridol-dict-select id=&quot;input_$fieldCode$&quot; v-model=&quot;dataForm.$fieldCode$&quot; dict-type=&quot;$dict_code$&quot; placeholder=&quot;$desc$&quot;&gt;&lt;/ridol-dict-select&gt;&#10;&lt;/el-form-item&gt;" description="下拉组件" toReformat="false" toShortenFQNames="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldCode" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dict_code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="ridol-getcnname" value="&lt;template slot-scope=&quot;scope&quot;&gt;&#10;    {{ $getDictName(&quot;$dictCode$&quot;, scope.row.$fieldCode$) }}&#10;&lt;/template&gt;" description="列表字典翻译中文" toReformat="false" toShortenFQNames="true">
+    <variable name="dictCode" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldCode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="ridol-rq1" value="this.$http.get(`$url$/${this.dataForm.id}`).then(({data: res}) =&gt; {&#10;  if (res.code !== 0) {&#10;      return this.$message.error(res.msg)&#10;  }&#10;  this.dataForm = {&#10;      ...this.dataForm,&#10;      ...res.data&#10;  }&#10;}).catch(() =&gt; {&#10;})" description="请求-url参数" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="ridol-rq2" value="this.$http.get('$url$', {&#10;    params: {&#10;        param1: vaue1&#10;    }&#10;}).then(({ data: res }) =&gt; {&#10;    if (res.code !== 0) {&#10;        this.$message.error(res.msg);&#10;    }&#10;}).catch(() =&gt; {})" description="请求-json参数" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="ridol-rq3" value="this.$http.post('$url$', this.dataForm).then(({ data: res }) =&gt; {&#10;    if (res.code !== 0) {&#10;      return this.$message.error(res.msg)&#10;    }&#10;}).catch(() =&gt; {})" description="请求-表单参数" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="dto-ps" value="@ApiModelProperty(&quot;$fieldDesc$&quot;)&#10;private String $fieldName$;" description="dto字符属性" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldDesc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldName" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ridol-dfi" value="$fieldName$: ''," description="dataForm属性定义" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldName" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="weq" value="wrapper.eq(StringUtils.isNotBlank($filed$), &quot;$filed$&quot;, $filed$);" description="sql代码构造等于" toReformat="false" toShortenFQNames="true">
+    <variable name="filed" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ridol-testPage" value="$tableField$Entity entity = TestEntityGen.createTestEntity($tableField$Entity.class);&#10;$tableField$Dao.insert(entity);&#10;$tableField$Entity entity1 = TestEntityGen.createTestEntity($tableField$Entity.class);&#10;$tableField$Dao.insert(entity1);&#10;MultiValueMap&lt;String, String&gt; params = new LinkedMultiValueMap&lt;String, String&gt;();&#10;params.set(&quot;page&quot;, &quot;1&quot;);&#10;params.set(&quot;limit&quot;, &quot;1&quot;);&#10;params.set(&quot;unitId&quot;, entity1.getUnitId());&#10;params.set(&quot;inspYr&quot;, entity1.getInspYr());&#10;params.set(&quot;approvalStatus&quot;, entity1.getApprovalStatus());&#10;Result&lt;PageData&lt;$tableField$DTO&gt;&gt; result = page(getMockMvc(), &quot;page&quot;, params, $tableField$DTO.class);&#10;Assert.assertEquals(1, result.getData().getTotal());//理论上只能查询出1条记录，所以如果是total==1的话则说明是正确的&#10;List&lt;$tableField$DTO&gt; dTOList = result.getData().getList();&#10;assertEqualsEntity(entity1, dTOList.get(0), new String[]{&quot;serialVersionUID&quot;, &quot;updateStaffName&quot;, &quot;insertStaffId&quot;,&quot;insertTime&quot;,&quot;lastModifyStaffId&quot;,&quot;lastModifyTime&quot;,&quot;updateTime&quot;});&#10;params.set(&quot;branchCode&quot;, &quot;-1&quot;);//测试查询不到的情况&#10;result = page(getMockMvc(), &quot;page&quot;, params, $tableField$DTO.class);&#10;Assert.assertEquals(0, result.getData().getTotal());//理论上查询不到记录，即记录数为0" description="测试查询" toReformat="false" toShortenFQNames="true">
+    <variable name="tableField" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ridol-i18n-list" value=":label=&quot;$t('$value$')&quot;" description="国际化列表" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="ridol-i18n-edit" value="{{$t('$value$')}}" description="国际化编辑区" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

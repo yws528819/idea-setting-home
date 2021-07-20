@@ -1,6 +1,7 @@
 <keymap version="1" name="shkstart" parent="Eclipse">
-  <action id="AddToFavorites">
-    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="CallHierarchy">
@@ -27,6 +28,12 @@
   <action id="Console.Jpa.GenerateSql" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="EditorScrollToCenter" />
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -36,6 +43,10 @@
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift alt x" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="shift alt s" />
@@ -54,8 +65,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="ParameterInfo">
-    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="Print" />
   <action id="QuickActionPopup" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
@@ -65,6 +77,7 @@
   </action>
   <action id="ScrollTreeToCenter" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowFilterPopup" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl f10" />
@@ -77,6 +90,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
   <action id="Unwrap" />
+  <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />

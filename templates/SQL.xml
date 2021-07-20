@@ -1,0 +1,9 @@
+<templateSet group="SQL">
+  <template name="mybatis-if" value="&lt;if test=&quot;$fieldName$ != null and $fieldName$.trim() != ''&quot;&gt;&#10;  AND $fieldName$ = #{$fieldName$}&#10;&lt;/if&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldName" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
