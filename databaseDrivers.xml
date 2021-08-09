@@ -5,7 +5,6 @@
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.21" />
     </driver>
     <driver id="mysql">
-      <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.47" />
       <library>
         <url>file://E:/localRepo/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar</url>
       </library>

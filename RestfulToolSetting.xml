@@ -4,7 +4,14 @@
       <Settings>
         <option name="properties">
           <map>
+            <entry key="Scan service with library on application default (global)" value="true" />
             <entry key="Select Icon Scheme:" value="default" />
+            <entry key="Select the default Content-Type" value="application/x-www-form-urlencoded" />
+            <entry key="Select the default Context Path of the container(Must start with'/' and cannot end with'/')" value="/" />
+            <entry key="Select the default port of the container(0-65535)" value="8080" />
+            <entry key="The maximum number of redirects allowed in the HTTP Tool" value="3" />
+            <entry key="Whether to display the Class file by default?" value="true" />
+            <entry key="Whether to expand the ServiceTree by default?" value="true" />
           </map>
         </option>
       </Settings>
