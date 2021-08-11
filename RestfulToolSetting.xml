@@ -11,7 +11,7 @@
             <entry key="Select the default port of the container(0-65535)" value="8080" />
             <entry key="The maximum number of redirects allowed in the HTTP Tool" value="3" />
             <entry key="Whether to display the Class file by default?" value="true" />
-            <entry key="Whether to expand the ServiceTree by default?" value="true" />
+            <entry key="Whether to expand the ServiceTree by default?" value="false" />
           </map>
         </option>
       </Settings>
