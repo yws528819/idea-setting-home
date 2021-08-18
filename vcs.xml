@@ -26,8 +26,62 @@
           <option name="url" value="https://github.com/macrozheng/mall-swarm.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/fi/fi.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35" />
+          <option name="userName" value="yews" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/qsc/qsc-op/qsc-op.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/qsc/qsc-op-app/qsc-op-app.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wm/wm.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wm/wms-control-wm-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wm/wms-service-wm-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wms/control/wms-control-pda-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wms/wms-control-common-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wms/wms-service-common-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/wm/data.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\IDEA_Workspace" />
+    <option name="cloneParentDir" value="D:\IDEA_QzingWorkspace" />
+  </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Subject" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+      </list>
+    </option>
   </component>
 </application>
