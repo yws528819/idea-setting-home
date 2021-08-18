@@ -67,6 +67,7 @@
   <action id="IntroduceField">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="MavenHelper.QuickRunMavenGoal" />
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
@@ -75,6 +76,9 @@
   </action>
   <action id="Print" />
   <action id="QuickActionPopup" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
