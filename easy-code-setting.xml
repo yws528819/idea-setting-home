@@ -116,11 +116,11 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="decimal(\(\d+\))?" />
-                    <option name="javaType" value="java.lang.Double" />
+                    <option name="javaType" value="java.math.BigDecimal" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="decimal(\(\d+,\d+\))?" />
-                    <option name="javaType" value="java.lang.Double" />
+                    <option name="javaType" value="java.math.BigDecimal" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="integer" />
@@ -157,6 +157,10 @@
                   <TypeMapper>
                     <option name="columnType" value="date" />
                     <option name="javaType" value="java.util.Date" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="tinyint(\(\d+\))?" />
+                    <option name="javaType" value="com.qzing.srm.entity.SrmState" />
                   </TypeMapper>
                 </list>
               </option>
