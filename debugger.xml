@@ -78,11 +78,13 @@
   </component>
   <component name="NodeRendererSettings">
     <Renderer ID="ToStringRenderer">
-      <option name="ENABLED" value="false" />
+      <option name="ON_DEMAND" value="true" />
     </Renderer>
   </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <option name="showLibraryStackFrames" value="false" />
+    </data-views>
     <general />
     <debuggers>
       <debugger id="javascript">
