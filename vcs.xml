@@ -74,6 +74,10 @@
           <option name="url" value="http://10.10.20.35/microservice/srm-common/srm-common.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/pms/sec.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\IDEA_QzingWorkspace" />
