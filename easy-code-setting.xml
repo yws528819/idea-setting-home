@@ -185,6 +185,10 @@
                     <option name="code" value="//调试表原始对象&#10;$!tool.debug($tableInfo.obj)&#10;&#10;//调试列原始对象&#10;$!tool.debug($tableInfo.fullColumn.get(0).obj)&#10;&#10;//调试列原始列类型&#10;$!tool.debug($tableInfo.fullColumn.get(0).obj.dataType)&#10;&#10;//获取原始列类型中的字段&#10;sqlType = $!tool.getField($tableInfo.fullColumn.get(0).obj.dataType, &quot;typeName&quot;)&#10;&#10;//执行原始列类型中的方法&#10;sqlTypeLen = $!tableInfo.fullColumn.get(0).obj.dataType.getLength()&#10;" />
                     <option name="name" value="debug.json" />
                   </Template>
+                  <Template>
+                    <option name="code" value="##引入宏定义&#10;$!define&#10;&#10;##使用宏定义设置回调（保存位置与文件后缀）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##使用宏定义设置包后缀&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##使用全局变量实现默认包导入&#10;$!autoImport&#10;import java.io.Serializable;&#10;&#10;&#10;##使用宏定义实现类注释信息&#10;#tableComment(&quot;实体类&quot;)&#10;public class $!{tableInfo.name} implements Serializable {&#10;    private static final long serialVersionUID = $!tool.serial();&#10;#foreach($column in $tableInfo.fullColumn)&#10;#if(${column.comment})   /**&#10;    * ${column.comment}&#10;    */#end&#10;    &#10;    @ApiModelProperty(value = &quot;$column.comment&quot;)&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;    &#10;#end&#10;&#10;#foreach($column in $tableInfo.fullColumn)&#10;    ##使用宏定义实现get,set方法&#10;    #getSetMethod($column)&#10;#end&#10;&#10;}" />
+                    <option name="name" value="dto.java" />
+                  </Template>
                 </list>
               </option>
               <option name="name" value="Qzing-simple" />
