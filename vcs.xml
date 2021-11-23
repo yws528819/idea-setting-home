@@ -82,6 +82,10 @@
           <option name="url" value="http://10.10.20.35/pms/mobile_api.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.20.35/microservice/csm/csm" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\IDEA_QzingWorkspace" />
