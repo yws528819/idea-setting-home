@@ -1,0 +1,18 @@
+<templateSet group="Qzing">
+  <template name="*" value="* &#10; * @description: TODO&#10; $param$&#10; $return$&#10; * @author yews&#10; * @date: $date$ $time$ &#10; */" description="方法上加注释" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="groovyScript(&quot;if(\&quot;${_1}\&quot;.length() == 2) {return '';} else {def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList();for(i = 0; i &lt; params.size(); i++) {if(i==0){result+='* @param ' + params[i] + ': '}else{result+='\\n' + ' * @param ' + params[i] + ': '}}; return result;}&quot;, methodParameters());" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="groovyScript(&quot;def returnType = \&quot;${_1}\&quot;; def result = '* @return: ' + returnType; return result;&quot;, methodReturnType());" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="date()" alwaysStopAt="true" />
+    <variable name="time" expression="" defaultValue="time()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="qzing-class" value="/**&#10; * @Description: TODO &#10; * @Title: &#10; * @Author yews&#10; * @Date: $date$ $time$&#10; */" description="类上加注释" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="" defaultValue="date()" alwaysStopAt="true" />
+    <variable name="time" expression="" defaultValue="time()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
