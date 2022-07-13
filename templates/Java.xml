@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="tsleep" value="try { TimeUnit.SECONDS.sleep($sencod$); } catch (Exception e){ e.printStackTrace(); }" toReformat="false" toShortenFQNames="true">
+    <variable name="sencod" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
