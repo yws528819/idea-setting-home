@@ -5,4 +5,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tsleepmill" value="//暂停几毫秒&#10;try { TimeUnit.MILLISECONDS.sleep($sencod$); } catch (Exception e){ e.printStackTrace(); }" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="sencod" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
