@@ -1,5 +1,6 @@
 <application>
   <component name="GeneralSettings">
+    <option name="showTipsOnStartup" value="true" />
     <option name="reopenLastProject" value="false" />
     <option name="autoSyncFiles" value="false" />
     <option name="autoSaveFiles" value="false" />
@@ -7,7 +8,6 @@
   </component>
   <component name="Registry">
     <entry key="debugger.watches.in.variables" value="false" />
-    <entry key="ide.experimental.ui" value="true" />
-    <entry key="debugger.new.tool.window.layout" value="true" />
+    <entry key="ide.experimental.ui" value="false" />
   </component>
 </application>
